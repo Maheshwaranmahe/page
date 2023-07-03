@@ -4,11 +4,10 @@
     text-decoration: none;
     list-style: none;
 }
-.About{
-    position: relative;
-}
 .About .text-center{
-    background-color: gold;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("image/fbg.jpg") fixed center center;
+    background-size: cover;
+    color: #fff;
 }
 .card{
     width: 30px;
@@ -21,7 +20,8 @@
     transform: scale(1.01);
 }
 .Contactus{
-    background-color: gray;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("image/fbg.jpg") fixed center center;
+    background-size: cover;
     position: relative;
     height: 20%;
     width: auto;
